@@ -5,7 +5,7 @@
 
 apim-gw-cert-manager: &acmeEmail "balaji.radhakrishnan@broadcom.com"                                       # Email of your google account for your cluster, e.g. example@gmail.com
 apim-gw-cert-manager: &certDomainName "*.security.broadcom.com"             # Domain name of the cert to be generated, e.g. *.cluster1.example.com
-apim-gw-cert-manager: &prodCertificateName "prod"                         # Define the name of the certificate in your cluster
+apim-gw-cert-manager: &prodCertificateName "staging"                         # Define the name of the certificate in your cluster
 apim-gw-cert-manager: &secretName "tls"                                   # Define the name of the key in your cluster, which is used by ingress later
 apim-gw-cert-manager: &stagingEnabled false                               # Generate staging level key
 apim-gw-cert-manager: &prodEnabled true                                   # Generate production level key
