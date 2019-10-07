@@ -41,14 +41,14 @@ service:
 
 livenessProbe:
   enabled: true
-  initialDelaySeconds: 120
+  initialDelaySeconds: 1000
   timeoutSeconds: 5
   periodSeconds: 5
   successThreshold: 1
 
 readinessProbe:
   enabled: true
-  initialDelaySeconds: 20
+  initialDelaySeconds: 1000
   failureThreshold: 20
   timeoutSeconds: 1
   periodSeconds: 5
